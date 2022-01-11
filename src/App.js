@@ -1,9 +1,9 @@
 import "./styles.css";
-import Counter from "./Counter.js";
+import SetState from "./SetState.js";
 export default function App() {
   return (
     <div className="App">
-      <Counter />
+      <SetState />
     </div>
   );
 }
