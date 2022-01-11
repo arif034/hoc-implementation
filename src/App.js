@@ -1,9 +1,9 @@
 import "./styles.css";
-import SetState from "./SetState.js";
+import UseEffect from "./UseEffect.js";
 export default function App() {
   return (
     <div className="App">
-      <SetState />
+      <UseEffect />
     </div>
   );
 }
