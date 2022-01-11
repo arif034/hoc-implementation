@@ -8,7 +8,13 @@ class Counter extends Component {
         {this.props.count}
         <br />
         <br />
-        <button onClick={this.props.setCount}>Increment</button>
+        <button onClick={this.props.incrementCount}>Increment</button>
+        <br />
+        <br />
+        <button onClick={this.props.decrementCount}>Decrement</button>
+        <br />
+        <br />
+        <button onClick={this.props.reset}>Reset</button>
       </div>
     );
   }
